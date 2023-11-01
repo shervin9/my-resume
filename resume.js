@@ -48,7 +48,7 @@ function run_command(){
         element = document.getElementById('error'); 
 
       if(input == 'download')
-        window.open('./resume.pdf', '_blank');
+        window.open('./shervin_salmanizadeh_resume.pdf', '_blank');
       else if(input == 'clear'){
         clear_console();
         return;
